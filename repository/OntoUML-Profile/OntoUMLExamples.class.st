@@ -18,7 +18,7 @@ OntoUMLExamples class >> exampleSubQuantityContainment [
 
 { #category : #'world menu' }
 OntoUMLExamples class >> menuCommandOn: aBuilder [
-	<worldMenu>
+	"<worldMenu>"
 	| parent |
 	parent := #OntoUML.
 	(aBuilder item: parent)
